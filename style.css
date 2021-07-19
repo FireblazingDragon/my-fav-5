@@ -1,0 +1,135 @@
+img {
+    width: 200px;
+    padding-top: 200px;
+}
+
+body {
+    text-align: center;
+    padding-top: 700px;
+}
+
+#welcome {
+    text-align: center;
+    background: linear-gradient(orange 0%, red 50%, green 100%);
+    height: 700px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+
+#bio {
+    background-color: darkcyan;
+    margin-left: -8px;
+    margin-right: -10px;
+    margin-bottom: -25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 113px;
+    margin-bottom: -55px;
+}
+
+#bio p {
+    max-width: 600px;
+    padding-left: 400px;
+}
+
+.line {
+    background-color: crimson;
+    height: 10px;
+    width: 125px;
+    margin: 10px auto;
+}
+
+p {
+    font-size: 25px;
+}
+
+.menu {
+    z-index: 10;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    cursor: pointer;
+    margin-left: -8px;
+    list-style: none;
+    background-color:dimgrey;
+    width: 100%;
+}
+
+.buttons {
+    padding: 20;
+    display: inline;
+    
+}
+
+a:hover {
+    font-size: 33px;
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none !important;
+    color:darkturquoise;
+}
+
+#insp a {
+    text-shadow: none !important;
+    font-size: 25px !important;
+    color: darkcyan !important;
+}
+
+#work a {
+    text-shadow: none !important;
+    font-size: 25px !important;
+    color: darkcyan !important;
+}
+
+#favorite {
+    background-color: darkolivegreen;
+    margin-left: -8px;
+    margin-right: -10px;
+    margin-bottom: -25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#favorite p {
+    max-width: 1300px;
+    padding-left: 70px;
+}
+
+#work {
+    background-color: darkslategray;
+    margin-left: -8px;
+    margin-right: -10px;
+    margin-bottom: -25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#insp {
+    background-color: darkgoldenrod;
+    margin-left: -8px;
+    margin-right: -10px;
+    margin-bottom: -25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contact {
+    background-color: forestgreen;
+    margin-left: -8px;
+    margin-right: -10px;
+    margin-bottom: -25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
